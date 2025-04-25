@@ -233,11 +233,6 @@ dependencies = [
     { name = "fastapi" },
 ]
 
-[package.optional-dependencies]
-standard = [
-    { name = "fastapi" },
-]
-
 [package.dev-dependencies]
 dev = [
     { name = "pytest" },
@@ -247,11 +242,7 @@ lint = [
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "fastapi", specifier = ">=0.115.11" },
-    { name = "fastapi", marker = "extra == 'standard'", specifier = ">=0.115.12" },
-]
-provides-extras = ["standard"]
+requires-dist = [{ name = "fastapi", specifier = ">=0.115.12" }]
 
 [package.metadata.requires-dev]
 dev = [{ name = "pytest", specifier = ">=8.3.5" }]
