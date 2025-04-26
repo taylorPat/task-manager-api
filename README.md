@@ -9,6 +9,7 @@ Simple, clean FastAPI + SQLAlchemy 2.0 project for managing tasks.
 - SQLAlchemy 2.0 with full typing
 - Pydantic v2 schemas
 - SQLite
+- uv for dependency management
 
 ## 🛠 Installation
 
