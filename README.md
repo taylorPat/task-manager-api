@@ -1,6 +1,6 @@
 # 📝 Task Manager API
 
-Simple, clean FastAPI + SQLAlchemy 2.0 project for managing tasks.
+Simple, clean **FastAPI** + **SQLAlchemy** + **SQLite** project for managing tasks.
 
 ## 🚀 Features
 
@@ -44,3 +44,9 @@ uv run main.py
 
 > [!NOTE]  
 > Swagger UI: http://127.0.0.1:8000/docs
+
+## ✨ Next improvements
+
+- Alembic for database migration
+- Docker setup
+- PostgreSQL
