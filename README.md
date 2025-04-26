@@ -36,7 +36,7 @@ uv run ruff format .
 uv run ruff check .
 ```
 
-🏃 Running the app
+## 🏃 Running the app
 
 ```bash
 uv run main.py
