@@ -1,8 +1,8 @@
 from fastapi import FastAPI
-from app.routers import tasks
+from app.routers.v1 import tasks
 from app.database.config import Base, engine
 
-Base.metadata.create_all(bind=engine)
+Base.metadata.create_all(bind=engine)  # Creates all tables on startup (for dev)
 
 app = FastAPI(title="Smart Task Manager API")
 app.include_router(tasks.router)

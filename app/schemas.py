@@ -12,11 +12,14 @@ class TaskCreate(TaskBase):
 
 
 class TaskUpdate(TaskBase):
-    completed: bool
+    completed: bool = False
 
 
-class Task(TaskBase):
+class Task(BaseModel):
+    # Allow creating Pydantic models from SQLAlchemy objects
     model_config = ConfigDict(from_attributes=True)
 
-    id: int
+    id: str
+    title: str
+    description: str
     completed: bool
