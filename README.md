@@ -45,7 +45,7 @@ uv run main.py
 > [!NOTE]  
 > Swagger UI: http://127.0.0.1:8000/docs
 
-![OpenAPI documentation](attachments/openapi_documentation.png)
+![OpenAPI documentation](attachments/openapi_documentations.png)
 
 ## ✨ Next improvements
 
