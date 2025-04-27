@@ -42,6 +42,8 @@ uv run ruff check .
 uv run main.py
 ```
 
+![OpenAPI documentation](attachments/openapi_documentation.png.png)
+
 > [!NOTE]  
 > Swagger UI: http://127.0.0.1:8000/docs
 

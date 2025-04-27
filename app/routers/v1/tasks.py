@@ -33,7 +33,7 @@ def get_task_by_id(task_id: str, db: DEPENDS_ON_DB_SESSION) -> schemas.Task:
 
 
 @router.put("/{task_id}")
-def update_task(
+def update_task_by_id(
     task_id: str, task: schemas.TaskUpdate, db: DEPENDS_ON_DB_SESSION
 ) -> schemas.Task:
     task = db.execute(
